@@ -1,0 +1,92 @@
+/* Lien de saut "Passer au contenu principal" */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    background-color: #444;
+}
+
+/* Mise en forme de l'élément <nav> */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+/* Mise en commentaire du style existant pour <li> */
+/* li {
+    padding: 10px;
+    background-color: #f0f0f0;
+} */
+
+/* Stylisation de la classe grid */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;  /* Deux colonnes de 40% */
+    gap: 20px;  /* Espacement entre les éléments */
+}
+
+.grid img {
+    width: 100%;  /* Image occupe toute la largeur de la cellule de la grille */
+}
+
+/* Ajustements supplémentaires pour la grille */
+.grid {
+    justify-content: center;  /* Centrer les éléments horizontalement */
+    align-items: center;  /* Centrer les éléments verticalement */
+    row-gap: 20px;  /* Espacement entre les lignes */
+}
+
+/* Classe flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;  /* Permet aux éléments de s'enrouler */
+    justify-content: space-around;  /* Espacement entre les éléments */
+}
+
+/* Améliorations générales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
